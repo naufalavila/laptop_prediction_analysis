@@ -37,7 +37,7 @@ function App() {
     const missing = required.filter(key => !form[key])
     
     if (missing.length > 0) {
-      setError(`Isi dulu: ${missing.join(', ')}`)
+      setError(`Please fill: ${missing.join(', ')} first!`)
       return
     }
 

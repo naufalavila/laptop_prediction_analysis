@@ -4,6 +4,9 @@
 
 A static web that powered by a machine learning model that enables you to predict or estimate a laptop’s price based on the specs you input (RAM, Brand, CPU, Storage, etc…). Built with a Python FastAPI backend (scikit-learn) and a React + Vite frontend.
 
+The dataset used for the project can be found here:
+https://www.kaggle.com/datasets/arnabchaki/laptop-price-prediction?select=laptops_train.csv
+
 ## 📝 Setup Installation
 
 1. Clone the repo and go inside the main project folder
