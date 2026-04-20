@@ -28,6 +28,8 @@ uv pip install -r requirements.txt
 
 ```text
 uvicorn api:app --reload
+or
+.venv/Scripts/python.exe -m uvicorn api:app --reload
 ```
 
 5. Run the frontend web
